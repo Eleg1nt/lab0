@@ -73,15 +73,15 @@ cp dodrio3 voltorb3/linoone/
 ln -s jellicent3/ Copy_90
 
 # 4)
-cat j* */j* */*/j* | wc -c 1> /tmp/s336183result 2> /tmp/s336183error
+cat j* */j* */*/j* 2> /tmp/s336183error | wc -c 1> /tmp/s336183result
 
-ls -Rl ./ | grep ma | sort -r | tail -4  2> /dev/null
+ls -Rl ./ 2> /dev/null | grep ma | sort -r | tail -4
 
-cat vibrava8 | grep -vi ce | sort -r 2> /dev/s336183error
+cat vibrava8 2> /dev/s336183error | grep -vi ce | sort -r
 
-ls -Rl ./ | sort -nrk 2 | grep v | head -3 2> /dev/null
+ls -Rl ./ 2> /dev/null | sort -nrk 2 | grep v | head -3
 
-cat jellicent3/* | sort 2> /dev/null
+cat jellicent3/* 2> /dev/null | sort 
 
 cat *k */*k */*/*k | sort -r 
 

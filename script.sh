@@ -4,7 +4,6 @@ rm -Rf lab0
 mkdir lab0
 cd lab0
 
-
 # 1)
 echo "Тип диеты: Herbivore" > dodrio3
 mkdir jellicent3
@@ -61,8 +60,8 @@ chmod o-r voltorb3/krokorok
 # 3)
 chmod 700 krabby6
 chmod 700 dodrio3
-chmod 700 voltorb3/
-chmod 700 magneton1/
+chmod 700 voltorb3
+chmod 700 magneton1
 
 cp krabby6 voltorb3/krokorokkrabby
 ln krabby6 magneton1/jigglypuffkrabby
@@ -71,6 +70,11 @@ cat magneton1/psyduck voltorb3/lotad > vibrava8_33
 ln -s krabby6 voltorb3/lotadkrabby
 cp dodrio3 voltorb3/linoone/
 ln -s jellicent3/ Copy_90
+
+chmod 440 krabby6
+chmod 062 dodrio3
+chmod 577 voltorb3
+chmod 736 magneton1
 
 # 4)
 cat j* */j* */*/j* 2> /tmp/s336183error | wc -c 1> /tmp/s336183result
@@ -89,7 +93,7 @@ cat *k */*k */*/*k | sort -r
 rm vibrava8
 rm magneton1/psyduck
 rm voltorb3/lotadkrab*
-rm magneton1/jigglypuffkrab*
+rm -f magneton1/jigglypuffkrab*
 rm -R magneton1
 chmod 300 jellicent3/
 rmdir jellicent3/snubbull
